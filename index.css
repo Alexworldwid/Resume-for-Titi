@@ -62,3 +62,21 @@ li {
     display: flex;
     justify-content: space-between;
 }
+@media only screen and (min-width: 600px) {
+    ul {
+        width: calc(100% - 30%);
+        margin: 15px 30%;
+    }
+    .post {
+        font-weight: 900;
+        margin-left: 23%;
+    }
+    .address {
+        margin-left: 28%;
+        font-weight: 700;
+    }
+    .languages ul {
+       margin: 15px 0;
+       width: 100%;
+    }
+}
